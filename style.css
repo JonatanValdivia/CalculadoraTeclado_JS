@@ -30,6 +30,8 @@ body{
     font: normal 4rem serif;
     overflow: hidden;
     border-radius: 5px;
+
+    user-select: none;
 }
 
 .calculator-buttons{
@@ -46,11 +48,12 @@ body{
     font-size: 1.5rem;
     outline: none;
     cursor: pointer;
+    /*Para não selecionar o conteúdo do botão*/
+    user-select: none;
     border: 2px solid black;
 }
 
 button:hover{
-    background-color: rgb(255, 83, 161);
-    color: black;
-    font-size: 1.6rem;
+    background-color: rgb(250, 93, 164);
+    color: rgb(29, 4, 24);;
 }
